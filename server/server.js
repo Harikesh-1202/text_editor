@@ -4,7 +4,7 @@ const app = express();
 const mongoose = require('mongoose')
 const Document = require('./Document')
 
-mongoose.connect("mongodb+srv://Hari_1202:Harimongo@cluster0.5jwh1kz.mongodb.net/test", {
+mongoose.connect("(MongDB-ConnectionLink)/test", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
